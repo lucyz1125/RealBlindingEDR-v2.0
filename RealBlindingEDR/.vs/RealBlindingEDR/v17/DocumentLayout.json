@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\temp\\test\\RealBlindingEDR\\RealBlindingEDR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A62776D0-CF96-4067-B4BE-B337AB6DFF02}|RealBlindingEDR\\RealBlindingEDR.vcxproj|D:\\temp\\test\\RealBlindingEDR\\RealBlindingEDR\\RealBlindingEDR\\RealBlindingEDR.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A62776D0-CF96-4067-B4BE-B337AB6DFF02}|RealBlindingEDR\\RealBlindingEDR.vcxproj|solutionrelative:RealBlindingEDR\\RealBlindingEDR.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RealBlindingEDR.cpp",
+              "DocumentMoniker": "D:\\temp\\test\\RealBlindingEDR\\RealBlindingEDR\\RealBlindingEDR\\RealBlindingEDR.cpp",
+              "RelativeDocumentMoniker": "RealBlindingEDR\\RealBlindingEDR.cpp",
+              "ToolTip": "D:\\temp\\test\\RealBlindingEDR\\RealBlindingEDR\\RealBlindingEDR\\RealBlindingEDR.cpp",
+              "RelativeToolTip": "RealBlindingEDR\\RealBlindingEDR.cpp",
+              "ViewState": "AgIAAJ0CAAAAGDMzMzPzv8oCAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-02T01:35:41.382Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

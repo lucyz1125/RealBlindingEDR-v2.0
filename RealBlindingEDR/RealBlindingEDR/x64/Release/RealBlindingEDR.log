@@ -1,0 +1,10 @@
+﻿  RealBlindingEDR.cpp
+D:\temp\test\RealBlindingEDR\RealBlindingEDR\RealBlindingEDR\RealBlindingEDR.cpp(221,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\temp\test\RealBlindingEDR\RealBlindingEDR\RealBlindingEDR\RealBlindingEDR.cpp(744,2): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\temp\test\RealBlindingEDR\RealBlindingEDR\RealBlindingEDR\RealBlindingEDR.cpp(915,13): warning C4018: “<”: 有符号/无符号不匹配
+D:\temp\test\RealBlindingEDR\RealBlindingEDR\RealBlindingEDR\RealBlindingEDR.cpp(990,13): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 7 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  RealBlindingEDR.vcxproj -> D:\temp\test\RealBlindingEDR\RealBlindingEDR\x64\Release\RealBlindingEDR.exe
